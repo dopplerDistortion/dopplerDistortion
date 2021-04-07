@@ -1,5 +1,11 @@
 ### Hi there 👋
 
+![Fernando's github stats](https://github-readme-stats.vercel.app/api?username=dopplerDistortion&count_private=true&show_icons=true&theme=radical)
+
+## Twitter
+
+Follow [@meendisbey](twitter.com/meendisbey)
+
 <!--
 **dopplerDistortion/dopplerDistortion** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
@@ -13,4 +19,5 @@ Here are some ideas to get you started:
 - 📫 How to reach me: ...
 - 😄 Pronouns: ...
 - ⚡ Fun fact: ...
+![Fernando's wakatime stats](https://github-readme-stats.vercel.app/api/wakatime?username=dopplerDistortion)
 -->
