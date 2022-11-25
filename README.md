@@ -1,6 +1,8 @@
 ### Hi there 👋
 
-![Fernando's github stats](https://github-readme-stats.vercel.app/api?username=dopplerDistortion&count_private=true&show_icons=true&theme=radical)
+![Göksenin's github stats](https://github-readme-stats.vercel.app/api?username=dopplerDistortion&count_private=true&show_icons=true&theme=radical)
+
+[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=dopplerDistortion&layout=compact)](https://github.com/dopplerDistortion/github-readme-stats)
 
 ## Twitter
 
