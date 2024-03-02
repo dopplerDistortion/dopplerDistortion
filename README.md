@@ -1,1 +1,1 @@
-![Metrics](https://pixel-profile-five.vercel.app/api/github-stats?username=dopplerdistortion&pixelate_avatar=false)
+![Metrics](https://pixel-profile-five.vercel.app/api/github-stats?username=dopplerdistortion&pixelate_avatar=false&show_avatar=false)
