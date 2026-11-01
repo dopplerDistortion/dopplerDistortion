@@ -1,7 +1,7 @@
 # Rebuilds the README and its panels from goksen.ing every day, after the
 # site's own training sync (04:17 UTC). The site repo is private, so reading
-# it needs SITE_TOKEN: a fine-grained token with read access to the contents
-# of dopplerDistortion/goksen.ing. Without it the job redraws from
+# it needs SITE_DEPLOY_KEY: the private half of a read-only deploy key on
+# dopplerDistortion/goksen.ing. Without it the job redraws from
 # data/site.json, the last snapshot.
 name: build profile
 
@@ -24,16 +24,17 @@ jobs:
   build:
     runs-on: ubuntu-latest
     env:
-      SITE_TOKEN: ${{ secrets.SITE_TOKEN }}
+      SITE_DEPLOY_KEY: ${{ secrets.SITE_DEPLOY_KEY }}
     steps:
       - uses: actions/checkout@v4
 
       - name: Check out goksen.ing
-        if: env.SITE_TOKEN != ''
+        if: env.SITE_DEPLOY_KEY != ''
         uses: actions/checkout@v4
         with:
           repository: dopplerDistortion/goksen.ing
-          token: ${{ secrets.SITE_TOKEN }}
+          ssh-key: ${{ secrets.SITE_DEPLOY_KEY }}
+          persist-credentials: false
           path: .site
           sparse-checkout: |
             content
@@ -51,7 +52,7 @@ jobs:
           if [ -d .site ]; then
             python scripts/build.py --site .site
           else
-            echo "::notice::SITE_TOKEN is not set; drawing from data/site.json"
+            echo "::notice::SITE_DEPLOY_KEY is not set; drawing from data/site.json"
             python scripts/build.py
           fi
 
