@@ -1,0 +1,356 @@
+{
+  "identity": {
+    "name": "Göksenin Güngör",
+    "role": "Lead engineer. Generalist, frontend to backend.",
+    "now": "Leading engineering work across the stack at a Swiss proptech.",
+    "mail": "me@goksen.ing",
+    "links": [
+      {
+        "label": "github",
+        "href": "https://github.com/dopplerDistortion"
+      },
+      {
+        "label": "linkedin",
+        "href": "https://www.linkedin.com/in/gokseningungor"
+      }
+    ]
+  },
+  "sections": [
+    {
+      "name": "writing",
+      "noun": "post",
+      "entries": [
+        {
+          "slug": "something-about-ai",
+          "title": "Something About AI",
+          "summary": "This year I stopped writing code and handed the work to AI; it made me more effective, and I still miss the escaping.",
+          "date": "2026-10-05",
+          "size": "06 min"
+        },
+        {
+          "slug": "text-x-component",
+          "title": "Fourteen minutes of text/x-component",
+          "summary": "How one test request made Cloudflare serve a Next.js RSC payload as my /writing page for about 14 minutes, and why my bypass rule lost.",
+          "date": "2026-10-03",
+          "size": "05 min"
+        }
+      ]
+    },
+    {
+      "name": "work",
+      "noun": "project",
+      "entries": [
+        {
+          "slug": "afet-harita",
+          "title": "Afet Harita",
+          "summary": "Two weeks as a volunteer frontend engineer on the help map that thousands of volunteers built after the February 2023 earthquake in Türkiye.",
+          "date": "2026-10-03",
+          "size": "2023"
+        }
+      ]
+    },
+    {
+      "name": "lab",
+      "noun": "experiment",
+      "entries": [
+        {
+          "slug": "aftershock",
+          "title": "Aftershock",
+          "summary": "Every earthquake of the week, worldwide, drawn as text on a half-block map. The quakes line up along the edges of the plates.",
+          "date": "2026-10-30",
+          "size": "wip"
+        },
+        {
+          "slug": "background-process",
+          "title": "Background Process",
+          "summary": "A process that only runs while you're looking somewhere else. Leave the tab and it works in the tab's title and icon; come back and it tells you what it did.",
+          "date": "2026-10-30",
+          "size": "wip"
+        },
+        {
+          "slug": "majority-shell",
+          "title": "Majority Shell",
+          "summary": "One shell prompt for everyone on this page. Each of you votes for a command, and every ten seconds the shell runs the one most of you picked. Somewhere on the machine there is a key.",
+          "date": "2026-10-30",
+          "size": "wip"
+        },
+        {
+          "slug": "match-foreground",
+          "title": "Match --foreground",
+          "summary": "A hunt for this site's bone ink on your own screen. Pick any pixel, in any app, and see how many steps away from the colour it is.",
+          "date": "2026-10-30",
+          "size": "wip"
+        },
+        {
+          "slug": "pinned",
+          "title": "Pinned",
+          "summary": "Aftershock's seismograph in a small window that stays on top of everything else on your screen, so the week's earthquakes tick by while you work.",
+          "date": "2026-10-30",
+          "size": "wip"
+        },
+        {
+          "slug": "redacted",
+          "title": "Redacted",
+          "summary": "A short memory, blacked out line by line. Select a line to read it, but you can only hold three at once; a fourth covers the oldest again.",
+          "date": "2026-10-30",
+          "size": "wip"
+        },
+        {
+          "slug": "reflow",
+          "title": "Reflow",
+          "summary": "One column of text that runs across real browser windows. Open another with split, drag them around, and the words reflow in reading order, left to right.",
+          "date": "2026-10-30",
+          "size": "wip"
+        },
+        {
+          "slug": "tape",
+          "title": "Tape",
+          "summary": "Shelley's Ozymandias on a teletype printout that types itself as you scroll, one character at a time, with no JavaScript. Scroll back and the paper unprints.",
+          "date": "2026-10-30",
+          "size": "wip"
+        },
+        {
+          "slug": "telegraph",
+          "title": "Telegraph",
+          "summary": "One telegraph wire shared by everyone on the page. Hold the key to send Morse; whoever keys first holds the line, and everyone hears the tone and watches it decode.",
+          "date": "2026-10-30",
+          "size": "wip"
+        },
+        {
+          "slug": "the-one-red",
+          "title": "The One Red",
+          "summary": "This site has one red, for the one action that matters and for failure. Here everyone on the page shares one red button, and it lights only while enough of you hold it at the same time.",
+          "date": "2026-10-30",
+          "size": "wip"
+        },
+        {
+          "slug": "whoami",
+          "title": "Whoami",
+          "summary": "A neofetch of your own machine, read the way any website can read it, with no prompt and no click. The lines add up to a fingerprint, and nothing leaves your browser.",
+          "date": "2026-10-30",
+          "size": "wip"
+        },
+        {
+          "slug": "terminal-home",
+          "title": "Terminal Home",
+          "summary": "I took the ads off my Google TV and replaced its home screen with one built on this site's design system, with a dock of eight apps and a trending card that follows the app in focus. Use the arrow keys.",
+          "date": "2026-10-24",
+          "size": "stable"
+        },
+        {
+          "slug": "grimoire-forty-nine-tickets",
+          "title": "Forty-Nine Tickets",
+          "summary": "Claude built all 49 tickets of grimoire in 58 hours, with six fast hours, a night of burning my usage for nothing, a post-mortem it wrote about itself, and a new plan that worked. By that evening it was on npm, and public.",
+          "date": "2026-10-13",
+          "size": "stable"
+        },
+        {
+          "slug": "grimoire-leaving-the-party",
+          "title": "Leaving the Party",
+          "summary": "I left an Arc Raiders party half asleep with an idea for an issue tracker, gave Claude seven lines and my permission, and went to bed.",
+          "date": "2026-10-11",
+          "size": "wip"
+        }
+      ]
+    }
+  ],
+  "training": {
+    "asOf": "2026-11-01",
+    "timeZone": "Europe/Zurich",
+    "totals": {
+      "workouts": 305,
+      "hours": 358,
+      "sets": 5479,
+      "tonnes": 2895,
+      "since": "2024-08"
+    },
+    "thisYear": 200,
+    "streakWeeks": 17,
+    "last": "2026-10-30",
+    "weeks": [
+      {
+        "start": "2026-05-04",
+        "workouts": 5
+      },
+      {
+        "start": "2026-05-11",
+        "workouts": 7
+      },
+      {
+        "start": "2026-05-18",
+        "workouts": 5
+      },
+      {
+        "start": "2026-05-25",
+        "workouts": 2
+      },
+      {
+        "start": "2026-06-01",
+        "workouts": 6
+      },
+      {
+        "start": "2026-06-08",
+        "workouts": 5
+      },
+      {
+        "start": "2026-06-15",
+        "workouts": 5
+      },
+      {
+        "start": "2026-06-22",
+        "workouts": 5
+      },
+      {
+        "start": "2026-06-29",
+        "workouts": 0
+      },
+      {
+        "start": "2026-07-06",
+        "workouts": 5
+      },
+      {
+        "start": "2026-07-13",
+        "workouts": 5
+      },
+      {
+        "start": "2026-07-20",
+        "workouts": 5
+      },
+      {
+        "start": "2026-07-27",
+        "workouts": 7
+      },
+      {
+        "start": "2026-08-03",
+        "workouts": 6
+      },
+      {
+        "start": "2026-08-10",
+        "workouts": 5
+      },
+      {
+        "start": "2026-08-17",
+        "workouts": 5
+      },
+      {
+        "start": "2026-08-24",
+        "workouts": 6
+      },
+      {
+        "start": "2026-08-31",
+        "workouts": 6
+      },
+      {
+        "start": "2026-09-07",
+        "workouts": 5
+      },
+      {
+        "start": "2026-09-14",
+        "workouts": 6
+      },
+      {
+        "start": "2026-09-21",
+        "workouts": 5
+      },
+      {
+        "start": "2026-09-28",
+        "workouts": 6
+      },
+      {
+        "start": "2026-10-05",
+        "workouts": 6
+      },
+      {
+        "start": "2026-10-12",
+        "workouts": 5
+      },
+      {
+        "start": "2026-10-19",
+        "workouts": 5
+      },
+      {
+        "start": "2026-10-26",
+        "workouts": 5
+      }
+    ],
+    "focus": [
+      {
+        "focus": "chest",
+        "thisWeek": 12,
+        "lastWeek": 12
+      },
+      {
+        "focus": "shoulders",
+        "thisWeek": 8,
+        "lastWeek": 8
+      },
+      {
+        "focus": "arms",
+        "thisWeek": 14,
+        "lastWeek": 14
+      },
+      {
+        "focus": "core",
+        "thisWeek": 6,
+        "lastWeek": 6
+      },
+      {
+        "focus": "legs",
+        "thisWeek": 28,
+        "lastWeek": 28
+      },
+      {
+        "focus": "back",
+        "thisWeek": 10,
+        "lastWeek": 10
+      }
+    ],
+    "lifts": [
+      {
+        "title": "Seated Leg Curl (Machine)",
+        "sessions": 37,
+        "best": {
+          "kg": 77.5,
+          "reps": 15
+        },
+        "e1rm": 116.5
+      },
+      {
+        "title": "Leg Extension (Machine)",
+        "sessions": 33,
+        "best": {
+          "kg": 57.5,
+          "reps": 15
+        },
+        "e1rm": 86.5
+      },
+      {
+        "title": "Lat Pulldown (Cable)",
+        "sessions": 29,
+        "best": {
+          "kg": 61,
+          "reps": 15
+        },
+        "e1rm": 91.5
+      },
+      {
+        "title": "Incline Bench Press (Dumbbell)",
+        "sessions": 29,
+        "best": {
+          "kg": 50,
+          "reps": 12
+        },
+        "e1rm": 70
+      },
+      {
+        "title": "Leg Press Horizontal (Machine)",
+        "sessions": 28,
+        "best": {
+          "kg": 145,
+          "reps": 12
+        },
+        "e1rm": 203
+      }
+    ]
+  }
+}

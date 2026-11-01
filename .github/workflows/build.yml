@@ -1,0 +1,68 @@
+# Rebuilds the README and its panels from goksen.ing every day, after the
+# site's own training sync (04:17 UTC). The site repo is private, so reading
+# it needs SITE_TOKEN: a fine-grained token with read access to the contents
+# of dopplerDistortion/goksen.ing. Without it the job redraws from
+# data/site.json, the last snapshot.
+name: build profile
+
+on:
+  schedule:
+    - cron: "47 4 * * *"
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths: [scripts/**, fonts/**, data/**, requirements.txt, .github/workflows/build.yml]
+
+permissions:
+  contents: write
+
+concurrency:
+  group: build-profile
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    env:
+      SITE_TOKEN: ${{ secrets.SITE_TOKEN }}
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Check out goksen.ing
+        if: env.SITE_TOKEN != ''
+        uses: actions/checkout@v4
+        with:
+          repository: dopplerDistortion/goksen.ing
+          token: ${{ secrets.SITE_TOKEN }}
+          path: .site
+          sparse-checkout: |
+            content
+            src/app/lab
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+
+      - run: pip install -r requirements.txt
+
+      - name: Build
+        run: |
+          if [ -d .site ]; then
+            python scripts/build.py --site .site
+          else
+            echo "::notice::SITE_TOKEN is not set; drawing from data/site.json"
+            python scripts/build.py
+          fi
+
+      - name: Commit if anything changed
+        run: |
+          git add README.md assets data
+          if git diff --cached --quiet; then
+            echo "No change."
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git commit -m "chore: rebuild profile from goksen.ing"
+          git push
