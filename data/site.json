@@ -155,23 +155,19 @@
     }
   ],
   "training": {
-    "asOf": "2026-11-01",
+    "asOf": "2026-11-02",
     "timeZone": "Europe/Zurich",
     "totals": {
-      "workouts": 305,
-      "hours": 358,
-      "sets": 5479,
-      "tonnes": 2895,
+      "workouts": 306,
+      "hours": 359,
+      "sets": 5495,
+      "tonnes": 2903,
       "since": "2024-08"
     },
-    "thisYear": 200,
-    "streakWeeks": 17,
-    "last": "2026-10-30",
+    "thisYear": 201,
+    "streakWeeks": 18,
+    "last": "2026-11-02",
     "weeks": [
-      {
-        "start": "2026-05-04",
-        "workouts": 5
-      },
       {
         "start": "2026-05-11",
         "workouts": 7
@@ -271,44 +267,48 @@
       {
         "start": "2026-10-26",
         "workouts": 5
+      },
+      {
+        "start": "2026-11-02",
+        "workouts": 1
       }
     ],
     "focus": [
       {
         "focus": "chest",
-        "thisWeek": 12,
+        "thisWeek": 6,
         "lastWeek": 12
       },
       {
         "focus": "shoulders",
-        "thisWeek": 8,
+        "thisWeek": 4,
         "lastWeek": 8
       },
       {
         "focus": "arms",
-        "thisWeek": 14,
+        "thisWeek": 4,
         "lastWeek": 14
       },
       {
         "focus": "core",
-        "thisWeek": 6,
+        "thisWeek": 2,
         "lastWeek": 6
       },
       {
         "focus": "legs",
-        "thisWeek": 28,
+        "thisWeek": 0,
         "lastWeek": 28
       },
       {
         "focus": "back",
-        "thisWeek": 10,
+        "thisWeek": 0,
         "lastWeek": 10
       }
     ],
     "lifts": [
       {
         "title": "Seated Leg Curl (Machine)",
-        "sessions": 37,
+        "sessions": 34,
         "best": {
           "kg": 77.5,
           "reps": 15
@@ -325,15 +325,6 @@
         "e1rm": 86.5
       },
       {
-        "title": "Lat Pulldown (Cable)",
-        "sessions": 29,
-        "best": {
-          "kg": 61,
-          "reps": 15
-        },
-        "e1rm": 91.5
-      },
-      {
         "title": "Incline Bench Press (Dumbbell)",
         "sessions": 29,
         "best": {
@@ -343,13 +334,22 @@
         "e1rm": 70
       },
       {
-        "title": "Leg Press Horizontal (Machine)",
+        "title": "Chest Fly (Machine)",
         "sessions": 28,
         "best": {
-          "kg": 145,
-          "reps": 12
+          "kg": 70,
+          "reps": 14
         },
-        "e1rm": 203
+        "e1rm": 102.5
+      },
+      {
+        "title": "Lat Pulldown (Cable)",
+        "sessions": 28,
+        "best": {
+          "kg": 61,
+          "reps": 15
+        },
+        "e1rm": 91.5
       }
     ]
   }
