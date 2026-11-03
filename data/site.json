@@ -155,18 +155,18 @@
     }
   ],
   "training": {
-    "asOf": "2026-11-02",
+    "asOf": "2026-11-03",
     "timeZone": "Europe/Zurich",
     "totals": {
-      "workouts": 306,
-      "hours": 359,
-      "sets": 5495,
-      "tonnes": 2903,
+      "workouts": 307,
+      "hours": 360,
+      "sets": 5511,
+      "tonnes": 2910,
       "since": "2024-08"
     },
-    "thisYear": 201,
+    "thisYear": 202,
     "streakWeeks": 18,
-    "last": "2026-11-02",
+    "last": "2026-11-03",
     "weeks": [
       {
         "start": "2026-05-11",
@@ -270,7 +270,7 @@
       },
       {
         "start": "2026-11-02",
-        "workouts": 1
+        "workouts": 2
       }
     ],
     "focus": [
@@ -281,12 +281,12 @@
       },
       {
         "focus": "shoulders",
-        "thisWeek": 4,
+        "thisWeek": 6,
         "lastWeek": 8
       },
       {
         "focus": "arms",
-        "thisWeek": 4,
+        "thisWeek": 8,
         "lastWeek": 14
       },
       {
@@ -301,7 +301,7 @@
       },
       {
         "focus": "back",
-        "thisWeek": 0,
+        "thisWeek": 10,
         "lastWeek": 10
       }
     ],
@@ -325,6 +325,15 @@
         "e1rm": 86.5
       },
       {
+        "title": "Lat Pulldown (Cable)",
+        "sessions": 29,
+        "best": {
+          "kg": 61,
+          "reps": 15
+        },
+        "e1rm": 91.5
+      },
+      {
         "title": "Incline Bench Press (Dumbbell)",
         "sessions": 29,
         "best": {
@@ -341,15 +350,6 @@
           "reps": 14
         },
         "e1rm": 102.5
-      },
-      {
-        "title": "Lat Pulldown (Cable)",
-        "sessions": 28,
-        "best": {
-          "kg": 61,
-          "reps": 15
-        },
-        "e1rm": 91.5
       }
     ]
   }
