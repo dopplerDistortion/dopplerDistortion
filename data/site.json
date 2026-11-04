@@ -21,6 +21,13 @@
       "noun": "post",
       "entries": [
         {
+          "slug": "personal-software-again",
+          "title": "Personal software, again",
+          "summary": "I asked Claude one question about my Hevy data, and three days later I had paid Apple again and owned an iPhone PT coach called Durandal.",
+          "date": "2026-11-03",
+          "size": "07 min"
+        },
+        {
           "slug": "something-about-ai",
           "title": "Something About AI",
           "summary": "This year I stopped writing code and handed the work to AI; it made me more effective, and I still miss the escaping.",
@@ -155,18 +162,18 @@
     }
   ],
   "training": {
-    "asOf": "2026-11-03",
+    "asOf": "2026-11-04",
     "timeZone": "Europe/Zurich",
     "totals": {
-      "workouts": 307,
-      "hours": 360,
-      "sets": 5511,
-      "tonnes": 2910,
+      "workouts": 308,
+      "hours": 362,
+      "sets": 5525,
+      "tonnes": 2924,
       "since": "2024-08"
     },
-    "thisYear": 202,
+    "thisYear": 203,
     "streakWeeks": 18,
-    "last": "2026-11-03",
+    "last": "2026-11-04",
     "weeks": [
       {
         "start": "2026-05-11",
@@ -270,7 +277,7 @@
       },
       {
         "start": "2026-11-02",
-        "workouts": 2
+        "workouts": 3
       }
     ],
     "focus": [
@@ -291,12 +298,12 @@
       },
       {
         "focus": "core",
-        "thisWeek": 2,
+        "thisWeek": 4,
         "lastWeek": 6
       },
       {
         "focus": "legs",
-        "thisWeek": 0,
+        "thisWeek": 12,
         "lastWeek": 28
       },
       {
@@ -308,7 +315,7 @@
     "lifts": [
       {
         "title": "Seated Leg Curl (Machine)",
-        "sessions": 34,
+        "sessions": 35,
         "best": {
           "kg": 77.5,
           "reps": 15
