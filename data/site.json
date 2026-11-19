@@ -21,6 +21,153 @@
       "noun": "post",
       "entries": [
         {
+          "slug": "500-icons-two-inks",
+          "title": "500 icons, two inks",
+          "summary": "My site took in a pack of 500 icons and redrew it in two inks, a line and a grey dither, and the script that checks the set prints 516.",
+          "date": "2026-11-19",
+          "size": "07 min"
+        },
+        {
+          "slug": "a-map-of-where-i-shot",
+          "title": "A map of where I shot",
+          "summary": "resync got a map of where I shot, and 62 minutes after it began, the commits add a read of the file header, because the first read found no GPS.",
+          "date": "2026-11-19",
+          "size": "07 min"
+        },
+        {
+          "slug": "a-requirements-document-that-says-no",
+          "title": "A requirements document that says no",
+          "summary": "Claude drafted the requirements document for my camera app in three commits and eight minutes, and it keeps what the camera can't do yet in its table, lists seven tests that could change the answers, and never got another commit while the code moved on.",
+          "date": "2026-11-19",
+          "size": "06 min"
+        },
+        {
+          "slug": "a-scale-with-no-app",
+          "title": "A scale with no app",
+          "summary": "I wanted a bathroom scale to talk to Durandal with no Xiaomi app and no account, so a 79-line program listened to its Bluetooth broadcasts, and the later recordings on the phone corrected three facts of the first one.",
+          "date": "2026-11-19",
+          "size": "06 min"
+        },
+        {
+          "slug": "boards-that-assert",
+          "title": "Boards that assert",
+          "summary": "I have a script that writes the boards of Durandal's new home screen and stops when a drawing breaks a rule of the design, and with six checks and a lint it still let three problems through.",
+          "date": "2026-11-19",
+          "size": "08 min"
+        },
+        {
+          "slug": "motion-you-can-measure",
+          "title": "Motion you can measure",
+          "summary": "I have a script that turns every screen change of Durandal into four numbers; it found four faults on its first day, and later it put a price on a change.",
+          "date": "2026-11-19",
+          "size": "07 min"
+        },
+        {
+          "slug": "moving-43-components-to-another-library",
+          "title": "Moving 43 components to another library",
+          "summary": "On 14 November 2026 the UI primitives of my site moved from Base UI to ui-sdk in 43 files, and I still don't know what the new parts do on touch, in Safari or with a screen reader.",
+          "date": "2026-11-19",
+          "size": "07 min"
+        },
+        {
+          "slug": "one-red",
+          "title": "One red",
+          "summary": "My site has one red, for the main action and for failures, so an action that can't be undone isn't red here, and on 14 November one commit took red tints out of 20 files that broke the rule.",
+          "date": "2026-11-19",
+          "size": "06 min"
+        },
+        {
+          "slug": "one-root-three-platforms",
+          "title": "One :root, three platforms",
+          "summary": "I wrote that one block of CSS keeps this site and my apps from drifting apart, and it turned out that no app reads the files that block writes.",
+          "date": "2026-11-19",
+          "size": "06 min"
+        },
+        {
+          "slug": "red-means-your-data-leaves-the-phone",
+          "title": "Red means your data leaves the phone",
+          "summary": "A review found that the new design of Durandal never said when a button is red, so the same day we wrote the rule down, and it says red only when an action sends my data out of the phone or writes to another service.",
+          "date": "2026-11-19",
+          "size": "07 min"
+        },
+        {
+          "slug": "steps-not-tweens",
+          "title": "Steps, not tweens",
+          "summary": "I'll show you how every motion on this site is a jump, never a tween, and how the one effect that ran for nearly ten days, the Build, was turned off with no reason on record.",
+          "date": "2026-11-19",
+          "size": "06 min"
+        },
+        {
+          "slug": "the-same-system-somewhere-else",
+          "title": "The same system, somewhere else",
+          "summary": "My site's design system now runs inside a theme for T3 Code and a layout for Herdr, and nothing in either repository checks that the copies still match the site.",
+          "date": "2026-11-19",
+          "size": "08 min"
+        },
+        {
+          "slug": "a-design-system-on-a-tv",
+          "title": "A design system on a TV",
+          "summary": "The design system of my site went onto a TV before it had a part or a rule for one, and a remote with no pointer changed how focus, a press and one grey work.",
+          "date": "2026-11-18",
+          "size": "06 min"
+        },
+        {
+          "slug": "a-verdict-not-a-score",
+          "title": "A verdict, not a score",
+          "summary": "Durandal reads four signals, two of them against my own normal range of 60 days, and tells me one word, go, steady or ease, and never a score from 0 to 100.",
+          "date": "2026-11-18",
+          "size": "09 min"
+        },
+        {
+          "slug": "nothing-is-written-without-a-diff",
+          "title": "Nothing is written without a diff",
+          "summary": "I let a model draft my training routines in Durandal, but nothing reaches Hevy until a function has checked the draft and I've confirmed a diff, which comes to three write requests and no delete.",
+          "date": "2026-11-18",
+          "size": "08 min"
+        },
+        {
+          "slug": "replacing-the-home-screen-of-a-tv",
+          "title": "Replacing the home screen of a TV",
+          "summary": "The home screen of my TV kept putting ads above my own apps, so I swapped it for a fork of an open-source Android launcher, which took one category in a file and three commands, and four things stayed out of reach.",
+          "date": "2026-11-18",
+          "size": "07 min"
+        },
+        {
+          "slug": "the-wall",
+          "title": "The wall",
+          "summary": "I locked a new home for Durandal with no tabs and no scroll, one wall of rooms where a room is as big as its area needs today, and I changed one of its rules the same day.",
+          "date": "2026-11-18",
+          "size": "08 min"
+        },
+        {
+          "slug": "three-ways-to-talk-to-one-camera",
+          "title": "Three ways to talk to one camera",
+          "summary": "My Fujifilm X-T30 II has no official SDK, so resync talks to it three ways, USB for the recipes, Bluetooth for a pocket and the camera's own Wi-Fi for the picture, and no single link does it all.",
+          "date": "2026-11-18",
+          "size": "07 min"
+        },
+        {
+          "slug": "trending-with-no-account",
+          "title": "Trending with no account",
+          "summary": "The big card on my TV's home screen shows what's trending with one key to a public database and no sign-in to any video app, until a Spotify feed turned up that wants an account.",
+          "date": "2026-11-18",
+          "size": "07 min"
+        },
+        {
+          "slug": "what-bluetooth-cannot-see",
+          "title": "What Bluetooth can't see",
+          "summary": "I wanted the lock screen of resync to count my photos, but my camera doesn't tell the phone when it takes one, and the two Bluetooth experiments that went looking were reverted 29 minutes after the first one went in.",
+          "date": "2026-11-18",
+          "size": "06 min"
+        },
+        {
+          "slug": "writing-a-film-recipe-to-slot-c1",
+          "title": "Writing a film recipe to slot C1",
+          "summary": "I wanted film recipes in my Fujifilm without its phone app, and resync wrote one over USB on the first morning, until the camera answered \"invalid value\" to a value it had given us itself, so now every value is read back and every refusal is named.",
+          "date": "2026-11-18",
+          "size": "07 min"
+        },
+        {
           "slug": "personal-software-again",
           "title": "Personal software, again",
           "summary": "I asked Claude one question about my Hevy data, and three days later I had paid Apple again and owned an iPhone PT coach called Durandal.",
@@ -47,6 +194,27 @@
       "name": "work",
       "noun": "project",
       "entries": [
+        {
+          "slug": "resync",
+          "title": "resync",
+          "summary": "I didn't like the phone app of my Fujifilm X-T30 II, so I had Claude build one for just that camera, and the thing I wanted on my lock screen, a photo count over Bluetooth, is the one thing the camera won't tell it.",
+          "date": "2026-11-19",
+          "size": "2026–"
+        },
+        {
+          "slug": "terminal-home",
+          "title": "terminal home",
+          "summary": "The home screen of my Google TV showed ads, so I had Claude Code fork an open-source Android launcher into one dark screen in the design system of this site.",
+          "date": "2026-11-19",
+          "size": "2026–"
+        },
+        {
+          "slug": "durandal",
+          "title": "Durandal",
+          "summary": "A personal app for my iPhone that holds eleven areas of my life on one screen. Its home is a wall of rooms, each sized by what the day needs.",
+          "date": "2026-11-17",
+          "size": "2026–"
+        },
         {
           "slug": "afet-harita",
           "title": "Afet Harita",
@@ -162,27 +330,19 @@
     }
   ],
   "training": {
-    "asOf": "2026-11-04",
+    "asOf": "2026-11-19",
     "timeZone": "Europe/Zurich",
     "totals": {
-      "workouts": 308,
-      "hours": 362,
-      "sets": 5525,
-      "tonnes": 2924,
+      "workouts": 314,
+      "hours": 369,
+      "sets": 5619,
+      "tonnes": 2992,
       "since": "2024-08"
     },
-    "thisYear": 203,
-    "streakWeeks": 18,
-    "last": "2026-11-04",
+    "thisYear": 209,
+    "streakWeeks": 1,
+    "last": "2026-11-19",
     "weeks": [
-      {
-        "start": "2026-05-11",
-        "workouts": 7
-      },
-      {
-        "start": "2026-05-18",
-        "workouts": 5
-      },
       {
         "start": "2026-05-25",
         "workouts": 2
@@ -277,54 +437,53 @@
       },
       {
         "start": "2026-11-02",
-        "workouts": 3
+        "workouts": 5
+      },
+      {
+        "start": "2026-11-09",
+        "workouts": 0
+      },
+      {
+        "start": "2026-11-16",
+        "workouts": 4
       }
     ],
     "focus": [
       {
         "focus": "chest",
-        "thisWeek": 6,
-        "lastWeek": 12
+        "thisWeek": 10,
+        "lastWeek": 0
       },
       {
         "focus": "shoulders",
-        "thisWeek": 6,
-        "lastWeek": 8
+        "thisWeek": 10,
+        "lastWeek": 0
       },
       {
         "focus": "arms",
-        "thisWeek": 8,
-        "lastWeek": 14
+        "thisWeek": 12,
+        "lastWeek": 0
       },
       {
         "focus": "core",
         "thisWeek": 4,
-        "lastWeek": 6
+        "lastWeek": 0
       },
       {
         "focus": "legs",
         "thisWeek": 12,
-        "lastWeek": 28
+        "lastWeek": 0
       },
       {
         "focus": "back",
-        "thisWeek": 10,
-        "lastWeek": 10
+        "thisWeek": 14,
+        "lastWeek": 0
       }
     ],
     "lifts": [
       {
-        "title": "Seated Leg Curl (Machine)",
-        "sessions": 35,
-        "best": {
-          "kg": 77.5,
-          "reps": 15
-        },
-        "e1rm": 116.5
-      },
-      {
         "title": "Leg Extension (Machine)",
-        "sessions": 33,
+        "sessions": 32,
         "best": {
           "kg": 57.5,
           "reps": 15
@@ -332,31 +491,40 @@
         "e1rm": 86.5
       },
       {
-        "title": "Lat Pulldown (Cable)",
-        "sessions": 29,
+        "title": "Seated Leg Curl (Machine)",
+        "sessions": 30,
         "best": {
-          "kg": 61,
+          "kg": 77.5,
           "reps": 15
         },
-        "e1rm": 91.5
-      },
-      {
-        "title": "Incline Bench Press (Dumbbell)",
-        "sessions": 29,
-        "best": {
-          "kg": 50,
-          "reps": 12
-        },
-        "e1rm": 70
+        "e1rm": 116.5
       },
       {
         "title": "Chest Fly (Machine)",
-        "sessions": 28,
+        "sessions": 27,
         "best": {
           "kg": 70,
           "reps": 14
         },
         "e1rm": 102.5
+      },
+      {
+        "title": "Triceps Pushdown",
+        "sessions": 27,
+        "best": {
+          "kg": 28.5,
+          "reps": 15
+        },
+        "e1rm": 43
+      },
+      {
+        "title": "Hip Adduction (Machine)",
+        "sessions": 26,
+        "best": {
+          "kg": 140,
+          "reps": 15
+        },
+        "e1rm": 210
       }
     ]
   }
