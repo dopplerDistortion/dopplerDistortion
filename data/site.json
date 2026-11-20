@@ -330,18 +330,18 @@
     }
   ],
   "training": {
-    "asOf": "2026-11-19",
+    "asOf": "2026-11-20",
     "timeZone": "Europe/Zurich",
     "totals": {
-      "workouts": 314,
-      "hours": 369,
-      "sets": 5619,
-      "tonnes": 2992,
+      "workouts": 315,
+      "hours": 370,
+      "sets": 5635,
+      "tonnes": 3014,
       "since": "2024-08"
     },
-    "thisYear": 209,
+    "thisYear": 210,
     "streakWeeks": 1,
-    "last": "2026-11-19",
+    "last": "2026-11-20",
     "weeks": [
       {
         "start": "2026-05-25",
@@ -445,7 +445,7 @@
       },
       {
         "start": "2026-11-16",
-        "workouts": 4
+        "workouts": 5
       }
     ],
     "focus": [
@@ -471,7 +471,7 @@
       },
       {
         "focus": "legs",
-        "thisWeek": 12,
+        "thisWeek": 28,
         "lastWeek": 0
       },
       {
@@ -483,7 +483,7 @@
     "lifts": [
       {
         "title": "Leg Extension (Machine)",
-        "sessions": 32,
+        "sessions": 33,
         "best": {
           "kg": 57.5,
           "reps": 15
@@ -498,6 +498,15 @@
           "reps": 15
         },
         "e1rm": 116.5
+      },
+      {
+        "title": "Hip Adduction (Machine)",
+        "sessions": 27,
+        "best": {
+          "kg": 140,
+          "reps": 15
+        },
+        "e1rm": 210
       },
       {
         "title": "Chest Fly (Machine)",
@@ -516,15 +525,6 @@
           "reps": 15
         },
         "e1rm": 43
-      },
-      {
-        "title": "Hip Adduction (Machine)",
-        "sessions": 26,
-        "best": {
-          "kg": 140,
-          "reps": 15
-        },
-        "e1rm": 210
       }
     ]
   }
