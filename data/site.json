@@ -330,23 +330,19 @@
     }
   ],
   "training": {
-    "asOf": "2026-11-20",
+    "asOf": "2026-11-23",
     "timeZone": "Europe/Zurich",
     "totals": {
-      "workouts": 315,
+      "workouts": 316,
       "hours": 370,
-      "sets": 5635,
-      "tonnes": 3014,
+      "sets": 5651,
+      "tonnes": 3022,
       "since": "2024-08"
     },
-    "thisYear": 210,
-    "streakWeeks": 1,
-    "last": "2026-11-20",
+    "thisYear": 211,
+    "streakWeeks": 2,
+    "last": "2026-11-23",
     "weeks": [
-      {
-        "start": "2026-05-25",
-        "workouts": 2
-      },
       {
         "start": "2026-06-01",
         "workouts": 6
@@ -446,38 +442,42 @@
       {
         "start": "2026-11-16",
         "workouts": 5
+      },
+      {
+        "start": "2026-11-23",
+        "workouts": 1
       }
     ],
     "focus": [
       {
         "focus": "chest",
-        "thisWeek": 10,
-        "lastWeek": 0
+        "thisWeek": 6,
+        "lastWeek": 10
       },
       {
         "focus": "shoulders",
-        "thisWeek": 10,
-        "lastWeek": 0
+        "thisWeek": 4,
+        "lastWeek": 10
       },
       {
         "focus": "arms",
-        "thisWeek": 12,
-        "lastWeek": 0
+        "thisWeek": 4,
+        "lastWeek": 12
       },
       {
         "focus": "core",
-        "thisWeek": 4,
-        "lastWeek": 0
+        "thisWeek": 2,
+        "lastWeek": 4
       },
       {
         "focus": "legs",
-        "thisWeek": 28,
-        "lastWeek": 0
+        "thisWeek": 0,
+        "lastWeek": 28
       },
       {
         "focus": "back",
-        "thisWeek": 14,
-        "lastWeek": 0
+        "thisWeek": 0,
+        "lastWeek": 14
       }
     ],
     "lifts": [
