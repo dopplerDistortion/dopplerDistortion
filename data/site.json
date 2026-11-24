@@ -229,6 +229,13 @@
       "noun": "experiment",
       "entries": [
         {
+          "slug": "found-objects",
+          "title": "Found objects",
+          "summary": "Seventeen interface ideas from ui-feed.dev, built again in two inks on ui-sdk. A VCR timer, a kiln program, a flip-dot rating, a departure board, and this page's own requests.",
+          "date": "2026-11-24",
+          "size": "wip"
+        },
+        {
           "slug": "aftershock",
           "title": "Aftershock",
           "summary": "Every earthquake of the week, worldwide, drawn as text on a half-block map. The quakes line up along the edges of the plates.",
@@ -330,18 +337,18 @@
     }
   ],
   "training": {
-    "asOf": "2026-11-23",
+    "asOf": "2026-11-24",
     "timeZone": "Europe/Zurich",
     "totals": {
-      "workouts": 316,
-      "hours": 370,
-      "sets": 5651,
-      "tonnes": 3022,
+      "workouts": 317,
+      "hours": 372,
+      "sets": 5667,
+      "tonnes": 3030,
       "since": "2024-08"
     },
-    "thisYear": 211,
+    "thisYear": 212,
     "streakWeeks": 2,
-    "last": "2026-11-23",
+    "last": "2026-11-24",
     "weeks": [
       {
         "start": "2026-06-01",
@@ -445,7 +452,7 @@
       },
       {
         "start": "2026-11-23",
-        "workouts": 1
+        "workouts": 2
       }
     ],
     "focus": [
@@ -456,12 +463,12 @@
       },
       {
         "focus": "shoulders",
-        "thisWeek": 4,
+        "thisWeek": 6,
         "lastWeek": 10
       },
       {
         "focus": "arms",
-        "thisWeek": 4,
+        "thisWeek": 8,
         "lastWeek": 12
       },
       {
@@ -476,7 +483,7 @@
       },
       {
         "focus": "back",
-        "thisWeek": 0,
+        "thisWeek": 10,
         "lastWeek": 14
       }
     ],
@@ -518,13 +525,13 @@
         "e1rm": 102.5
       },
       {
-        "title": "Triceps Pushdown",
+        "title": "Seated Cable Row - V Grip (Cable)",
         "sessions": 27,
         "best": {
-          "kg": 28.5,
-          "reps": 15
+          "kg": 73,
+          "reps": 12
         },
-        "e1rm": 43
+        "e1rm": 102
       }
     ]
   }
