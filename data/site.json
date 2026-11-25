@@ -46,7 +46,7 @@
           "title": "A scale with no app",
           "summary": "I wanted a bathroom scale to talk to Durandal with no Xiaomi app and no account, so a 79-line program listened to its Bluetooth broadcasts, and the later recordings on the phone corrected three facts of the first one.",
           "date": "2026-11-19",
-          "size": "06 min"
+          "size": "07 min"
         },
         {
           "slug": "boards-that-assert",
@@ -337,18 +337,18 @@
     }
   ],
   "training": {
-    "asOf": "2026-11-24",
+    "asOf": "2026-11-25",
     "timeZone": "Europe/Zurich",
     "totals": {
-      "workouts": 317,
-      "hours": 372,
-      "sets": 5667,
-      "tonnes": 3030,
+      "workouts": 318,
+      "hours": 373,
+      "sets": 5681,
+      "tonnes": 3045,
       "since": "2024-08"
     },
-    "thisYear": 212,
+    "thisYear": 213,
     "streakWeeks": 2,
-    "last": "2026-11-24",
+    "last": "2026-11-25",
     "weeks": [
       {
         "start": "2026-06-01",
@@ -452,7 +452,7 @@
       },
       {
         "start": "2026-11-23",
-        "workouts": 2
+        "workouts": 3
       }
     ],
     "focus": [
@@ -473,12 +473,12 @@
       },
       {
         "focus": "core",
-        "thisWeek": 2,
+        "thisWeek": 4,
         "lastWeek": 4
       },
       {
         "focus": "legs",
-        "thisWeek": 0,
+        "thisWeek": 12,
         "lastWeek": 28
       },
       {
@@ -499,7 +499,7 @@
       },
       {
         "title": "Seated Leg Curl (Machine)",
-        "sessions": 30,
+        "sessions": 31,
         "best": {
           "kg": 77.5,
           "reps": 15
