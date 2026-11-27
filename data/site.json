@@ -184,9 +184,9 @@
         {
           "slug": "text-x-component",
           "title": "Fourteen minutes of text/x-component",
-          "summary": "How one test request made Cloudflare serve a Next.js RSC payload as my /writing page for about 14 minutes, and why my bypass rule lost.",
+          "summary": "How one test request made Cloudflare serve text/x-component, a Next.js RSC payload, as my /writing page for about 14 minutes, and why my bypass rule lost.",
           "date": "2026-10-03",
-          "size": "05 min"
+          "size": "07 min"
         }
       ]
     },
@@ -228,6 +228,13 @@
       "name": "lab",
       "noun": "experiment",
       "entries": [
+        {
+          "slug": "claim",
+          "title": "Claim",
+          "summary": "The Earth as a grid of squares, one for each visitor. You claim a square, build on it, and close the tab. The stocks keep growing while you are away, and everyone else is on the same map.",
+          "date": "2026-11-26",
+          "size": "wip"
+        },
         {
           "slug": "found-objects",
           "title": "Found objects",
@@ -337,18 +344,18 @@
     }
   ],
   "training": {
-    "asOf": "2026-11-26",
+    "asOf": "2026-11-27",
     "timeZone": "Europe/Zurich",
     "totals": {
-      "workouts": 319,
-      "hours": 374,
-      "sets": 5697,
-      "tonnes": 3052,
+      "workouts": 320,
+      "hours": 375,
+      "sets": 5713,
+      "tonnes": 3076,
       "since": "2024-08"
     },
-    "thisYear": 214,
+    "thisYear": 215,
     "streakWeeks": 2,
-    "last": "2026-11-26",
+    "last": "2026-11-27",
     "weeks": [
       {
         "start": "2026-06-01",
@@ -452,7 +459,7 @@
       },
       {
         "start": "2026-11-23",
-        "workouts": 4
+        "workouts": 5
       }
     ],
     "focus": [
@@ -478,7 +485,7 @@
       },
       {
         "focus": "legs",
-        "thisWeek": 12,
+        "thisWeek": 28,
         "lastWeek": 28
       },
       {
@@ -490,7 +497,7 @@
     "lifts": [
       {
         "title": "Leg Extension (Machine)",
-        "sessions": 33,
+        "sessions": 34,
         "best": {
           "kg": 57.5,
           "reps": 15
@@ -508,12 +515,12 @@
       },
       {
         "title": "Hip Adduction (Machine)",
-        "sessions": 27,
+        "sessions": 28,
         "best": {
-          "kg": 140,
+          "kg": 145,
           "reps": 15
         },
-        "e1rm": 210
+        "e1rm": 217.5
       },
       {
         "title": "Chest Fly (Machine)",
